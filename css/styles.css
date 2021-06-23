@@ -1,0 +1,106 @@
+/* 
+*  CSS file for the whole project
+*  Author: Mirko Viviano
+*   
+*  CSS TABLE OF CONTENTS
+*   
+*  1.0 - BODY
+*  2.0 - HEADER
+*  3.0 - NAV
+*  4.0 - CAROUSELS SECTION
+*  5.0 - FOOTER AND FORM
+*/
+
+/* ================================================================= */
+/*                          START BODY CSS
+/* ================================================================= */
+body, html {
+    height: 100%;
+    background: #fff;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    font-family: futura, sans-serif;
+}
+/* Removes paddings and margins in a single instruction */
+.nopadding{
+    margin: 0 0 0 0!important;
+    padding: 0 0 0 0!important;
+}
+/* Removes left and right paddings in a single instruction */
+.p-3{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+/* ================================================================= */
+/*                          START HEADER CSS
+/* ================================================================= */
+header.header{
+    background: #2b2b2b;
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 1.5em 0 1.5em 0;
+}
+header > nav{
+    text-align: center;
+}
+/* ================================================================= */
+/*                          START NAV CSS
+/* ================================================================= */
+nav{
+    background: transparent;
+}
+.nav-link, a {
+    color: #FFF;
+    font-size: 18px;
+    margin-right: 2em;
+
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+}
+.nav-link > a:hover, a:hover{
+    color: #FFF;
+    text-decoration: underline;
+
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+}
+/* ================================================================= */
+/*                    START CAROUSELS SECTION CSS
+/* ================================================================= */
+.location_title h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+.location_carousel{
+    height: 500px;
+}
+/* ================================================================= */
+/*                     START FOOTER AND FORM CSS
+/* ================================================================= */
+.formMessage{
+    height: 100px;
+    line-height: 80px;
+}
+.footer-wrapper{
+    margin-top: 5em!important;
+    background: #2B2B2B;
+    color: #FFF;
+}
+.footer{
+    margin: 2em 0 2em 2em;
+    padding: 2em 0 2em 2em;
+}
+.submitForm{
+    margin-top: 1em;
+}
+.theform{
+    margin-bottom: 1em;
+}
+.btn-light{
+    color: #000;
+}
